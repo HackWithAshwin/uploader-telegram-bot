@@ -30,7 +30,7 @@ sendMessage ($chatId, "Download Complete!");
 sendMessage ($chatId, "Uploading...");
 $post = array('chat_id' => $GLOBALS["chatId"],'document'=>new CurlFile($returnData[3]));
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL,"https://api.telegram.org/bot" . $GLOBALS["botToken"] . "/sendDocument");
+curl_setopt($ch, CURLOPT_URL,"https://api.telegram.org/bot" . $GLOBALS["1059469752:AAHd6BL1b0109dFCuCrw0wCKsC9VFcSHHcs"] . "/sendDocument");
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_setopt($ch, CURLOPT_TIMEOUT, 50);
 curl_setopt( $ch, CURLOPT_NOBODY, true );
